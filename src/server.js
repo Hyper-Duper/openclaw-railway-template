@@ -38,7 +38,6 @@ function resolveGatewayToken() {
   if (envTok) {
     console.log(`[token] ✓ Using token from OPENCLAW_GATEWAY_TOKEN env variable`);
     console.log(`[token]   First 16 chars: ${envTok.slice(0, 16)}...`);
-    console.log(`[token]   Full token: ${envTok}`);
     return envTok;
   }
 
