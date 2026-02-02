@@ -56,6 +56,11 @@ RUN apt-get update \
     python3 \
     pkg-config \
     sudo \
+    poppler-utils \
+    tesseract-ocr \
+    ffmpeg \
+    iproute2 \
+    fonts-liberation \
   && rm -rf /var/lib/apt/lists/*
 
 # Install Homebrew (must run as non-root user)
