@@ -1,0 +1,11 @@
+[phases.setup]
+aptPkgs = [
+  "chromium",
+  "nano",
+  "poppler-utils",
+  "tesseract-ocr",
+  "ffmpeg",
+  "iproute2",
+  "ca-certificates",
+  "fonts-liberation"
+]
